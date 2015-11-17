@@ -22,6 +22,7 @@ class MovingDateViewController: UIViewController {
   @IBOutlet weak var whenMovingLabel: UILabel!
   @IBOutlet weak var daysLeftLabel: UILabel!
   @IBOutlet weak var createTasksButton: UIButton!
+    
   var updatingDate = false
   var delegate: MovingDateDelegate?
   
